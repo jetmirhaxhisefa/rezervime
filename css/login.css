@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa-Regular.ttf);
+}
+
+body {
+	background: rgba(224,224,224,1);
+	background: -moz-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(143,143,143,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,224,224,1)), color-stop(100%, rgba(143,143,143,1)));
+	background: -webkit-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(143,143,143,1) 100%);
+	background: -o-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(143,143,143,1) 100%);
+	background: -ms-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(143,143,143,1) 100%);
+	background: linear-gradient(to bottom, rgba(224,224,224,1) 0%, rgba(143,143,143,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#8f8f8f', GradientType=0 );	
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#loginWrapper{
+	width: 450px;
+	height: 300px;
+	margin: 15% auto;
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(235,235,235,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb', GradientType=0 );
+	position: relative;
+	border-radius:3px;
+}
+
+#hr {
+	height: 2px;
+	width: 90%;
+	background-color: #CCC;
+	margin: -11px auto;
+	position: relative;
+}
+#hr2{
+	height: 2px;
+	width: 28%;
+	background-color: #CCC;
+	margin-top: -48px;
+	margin-left: 25px;
+	position: relative;
+}
+#hr3{
+	height: 2px;
+	width: 28%;
+	background-color: #CCC;
+	margin-top: -3px;
+	margin-right: 25px;
+	float: right;	
+}
+h3{
+	font-family: Comfortaa;
+	color: #999999;
+	text-align: center;
+	font-size: 16px;
+	margin: 0px auto;
+	position: relative;
+	display: block;
+	padding-top:30px;
+	padding-left:8px;
+	padding-right:8px;
+	background-color: #FFF;
+	display: inline-block;
+	z-index: 1;
+}
+#loginForm{
+	width: 100%;
+}
+#loginForm input{
+	display: block;
+	width: 85.5%;
+	height: 38px;
+	border: 2px solid #CCC;
+	margin: 30px auto;
+	padding-left: 15px;
+	border-radius: 3px;
+	font-family: Comfortaa;
+	font-size: 16px;
+}
+
+#login{
+	width: 120px !important;
+	padding: 0 !important;
+	outline: 8px solid inherit;
+}
+
+
+
+
+
+
